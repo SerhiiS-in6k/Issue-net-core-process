@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0-*",
+  "buildOptions": {
+     "define": [ "WIN64" ],
+    "emitEntryPoint": true
+
+  },
+
+  "dependencies": {
+
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": "dnxcore50",
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0"
+        },
+        "System.Threading.Thread": "4.0.0"
+      }
+    },
+    "NET40": {}
+  },
+  "runtimes": {
+    "win10-x64": {},
+    "ubuntu.14.04-x64":{}
+  }
+}
