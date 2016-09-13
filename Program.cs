@@ -12,6 +12,7 @@ namespace ConsoleApp5
     {
         public static void Main(string[] args)
         {
+            //create simple console application or use system programe like gebit, calulator
             var executablePath = "/home/sergiish/Desktop/testdata/StubMicroservice";
 
             var process = new Process
@@ -31,12 +32,8 @@ namespace ConsoleApp5
             process.Start();
             process.Kill();
             process.WaitForExit();
-
             Console.WriteLine(process.HasExited);
-
             Console.WriteLine(process.StartTime);
-
-
         }
     }
 }
